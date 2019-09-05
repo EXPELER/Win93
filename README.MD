@@ -24,7 +24,7 @@ Openbox3.0
 A Window compositor
 
 ## Install the system theme modification
-[Click here](INSTALL.md) for install steps.
+[Click here](INSTALL.MD) for install steps.
 
 ## Screenshots
 [Click here to view screenshots](Screenshots/SCREENSHOTS.md)
