@@ -31,3 +31,6 @@ A Window compositor
 
 
 ### COPYLEFT
+
+### Support Me! 
+### https://www.buymeacoffee.com/HiBqwk6Iy
