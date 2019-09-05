@@ -1,0 +1,26 @@
+function msdos_pwd
+{
+    local dir="`pwd`"
+    dir=${dir/$HOME/''}
+
+    echo $dir | tr '/' '\\'
+}
+
+export PS1='`msdos_pwd`>~ '
+
+echo ".__           .__  .__"          
+echo "|  |__   ____ |  | |  |   ____  "
+echo "|  |  \_/ __ \|  | |  |  /  _ \ "
+echo "|   Y  \  ___/|  |_|  |_(  <_> )"
+echo "|___|  /\___  >____/____/\____/ "
+echo "     \/     \/                  "
+echo "                    .__       .___"
+echo "__  _  _____________|  |    __| _/"
+echo "\ \/ \/ /  _ \_  __ \  |   / __ | "
+echo " \     (  <_> )  | \/  |__/ /_/ | "
+echo "  \/\_/ \____/|__|  |____/\____ | "
+echo "                               \/ "
+
+echo "Welcome to Windows 93 :)"
+echo "type "help" or some Bash..."
+echo
