@@ -15,6 +15,7 @@
 * [Installing Plymouth](#install_plymouth)
 * [Installing Lightdm-Webkit-Greeter](#install_lightdm)
 * [Installing Terminal](#install_terminal)
+* [Startup-Sound](#install_sound)
 <!--te-->
 
 ---
@@ -172,6 +173,8 @@ user-session=xfce
 - make the text color to `#c3ff00` and the background color to `#000000`
 - make the text selection color to `#000000` and `#c3ff00`
 - make the bold text `#24FF00`
+
+<a name="install_sound"/>
 
 ### [ Windows 93 login startup sound ]
 - installed sox
