@@ -1,0 +1,47 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/clearfix.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="font/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="font/iconic_fill.css" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+</head>
+
+
+<body oncontextmenu="return false;">
+<div id="box">
+    <div class="box-inner">
+        <div class="header cf">
+            &nbsp;Enter Windows Password
+        <div id="strip"></div>
+        </div>
+        <div class="left"> <img src="img/start.png">
+        <div id="pass1">User&nbsp;name:<br><br></div>
+        <div id="pass2">Password:</div>
+        </div>
+        <div class="content">
+            Type a user name and password to login to Windows 93.
+		<br><br><br>
+            <div id="form">
+            	<form action="javascript: attemptLogin()" id="start">
+                        <input id="user" type="text" placeholder="" />
+            	</form>
+            	<form action="javascript: attemptLogin()" id="start">
+                	<input id="password" type="password" placeholder="" />
+            	</form>
+        	</div>
+
+        </div>
+	<div class="right">
+		<button type="submit" form="start" value="Submit">Submit</button>
+                <br><br>
+                <button type="cancel">Cancel</button>		
+	</div>
+    </div>
+    
+</div>
+<div id="message"></div>
+    <script type="text/javascript" src="js/mock.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

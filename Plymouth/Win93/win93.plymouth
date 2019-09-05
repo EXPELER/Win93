@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=win93
+Description=win93boot
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/win93
+ScriptFile=/usr/share/plymouth/themes/win93/animated-boot.script
