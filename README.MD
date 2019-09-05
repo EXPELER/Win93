@@ -2,7 +2,7 @@
 #### XFCE / Chicago95/ MOD
 
 <p align="center">
-<img src="" alt="Windows93 Desktop"/>
+<img src="Screenshots/Desktop-Window" alt="Windows93 Desktop"/>
 </p>
 
 This theme is a modification for Chicago95 by Celestral to make the XFCE look like Windows93.
