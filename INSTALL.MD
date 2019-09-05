@@ -173,7 +173,10 @@ user-session=xfce
 - make the text selection color to `#000000` and `#c3ff00`
 - make the bold text `#24FF00`
 
-
+### [ Windows 93 login startup sound ]
+- installed sox
+`sudo apt install sox`
+- copy the file `Win93-master/win93.ogg` to `~/.themes/Chicago95/misc/win93.ogg`.
 
 
 
