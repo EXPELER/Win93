@@ -98,6 +98,11 @@
 - Open the Openbox Configuration Manager > appearance 
 - Make all the fonts "Pix M 8pt Regular" and put it on size 6.
 
+#### Step 4: Setting up the fonts in qt5ct
+
+- Open qt5ct type `qt5ct` in terminal 
+- Make all the fonts "Pix M 8pt Regular" and put it on size 6.
+
 <a name="replace_gtkrc"/>
 
 ### Replacing GTKRC
