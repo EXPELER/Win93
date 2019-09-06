@@ -136,7 +136,7 @@
 ### Installing Plymouth
 
 - Move the plymouth folder in `~/Win93-master/Plymouth/` to `/usr/share/plymouth/themes/`
-- now open terminal and write `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/win93/win93.plymouth 100`
+- now open terminal and write `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/Win93/win93.plymouth 100`
 - Select the default theme `sudo update-alternatives --config default.plymouth` And select the number with win93.
 - Update the initramfs image `sudo update-initramfs -u`
 - reboot
