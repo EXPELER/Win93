@@ -85,7 +85,7 @@
 
 #### Step 1: Install the fonts
 
-- Install the M8pt.ttf and basis33.ttf located in the Win93-master folder.
+- Install the M8pt.ttf, basis33.ttf and px_sans_nouveaux.ttf  located in the Win93-master folder.
 
 #### Step 2: Setting up the fonts in XFCE
 
@@ -96,12 +96,12 @@
 #### Step 3: Setting up the fonts in Openbox
 
 - Open the Openbox Configuration Manager > appearance 
-- Make all the fonts "Pix M 8pt Regular" and put it on size 6.
+- Make all the fonts "px_sans_nouveaux" and put it on size 6.
 
 #### Step 4: Setting up the fonts in qt5ct
 
 - Open qt5ct type `qt5ct` in terminal 
-- Make all the fonts "Pix M 8pt Regular" and put it on size 6.
+- Make all the fonts "px_sans_nouveaux" and put it on size 6.
 
 <a name="replace_gtkrc"/>
 
@@ -136,7 +136,7 @@
 ### Installing Plymouth
 
 - Move the plymouth folder in `~/Win93-master/Plymouth/` to `/usr/share/plymouth/themes/`
-- now open terminal and write `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/Win93/win93.plymouth 100`
+- now open terminal and write `sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/win93/win93.plymouth 100`
 - Select the default theme `sudo update-alternatives --config default.plymouth` And select the number with win93.
 - Update the initramfs image `sudo update-initramfs -u`
 - reboot
@@ -157,7 +157,7 @@ user-session=xfce
 ```
 
 - Save and exit
-- Now type `sudo nano /etc/lightdm/lightdm-webkit-greeter.conf` and set the "theme-name" to "Win93"
+- Now type `sudo nano /etc/lightdm/lightdm-webkit-greeter.conf` and set the "theme-name" and "webkit-theme" to "Win93"
 - Save and exit 
 
 <a name="install_terminal"/>
