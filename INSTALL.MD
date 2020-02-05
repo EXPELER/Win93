@@ -92,6 +92,9 @@
 - Open the XFCE settings manager > Appearance > fonts. 
 - Make the default font "pix M 8pt" with the letter size 6.
 - Make the monospacefont "basis33" with the letter size 6.
+- Put hinting to 'None'
+- Put sub-pixel order to 'None'
+- Unmark custom DPI
 
 #### Step 3: Setting up the fonts in Openbox
 
