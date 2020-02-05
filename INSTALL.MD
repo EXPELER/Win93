@@ -182,9 +182,25 @@ user-session=xfce
 <a name="install_sound"/>
 
 ### [ Windows 93 login startup sound ]
-- installed sox
+- install sox
 `sudo apt install sox`
 - copy the file `Win93-master/win93.ogg` to `~/.themes/Chicago95/misc/win93.ogg`.
 
+###[Extra's]
+
+#### Matrix idle screen in terminal
+- install screen
+`sudo apt-get install screen`
+- install cmatrix
+`sudo apt-get install cmatrix`
+- go to `/etc/screenrc`
+- set startup message to off
+- Open the terminal (Ctrl - Alt + T)
+- Open edit > preferences > General
+- mark `Run custom command instead of my shell`
+- type at Custom Command `screen`
+- Create `~/.screenrc`
+- put `blankerprg cmatrix -ab -u2 idle 5 blanker` in `~/.screenrc`
+`
 
 
