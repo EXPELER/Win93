@@ -200,7 +200,7 @@ user-session=xfce
 - mark `Run custom command instead of my shell`
 - type at Custom Command `screen`
 - Create `~/.screenrc`
-- put `blankerprg cmatrix -ab -u2 idle 5 blanker` in `~/.screenrc`
+- put `blankerprg cmatrix idle 60 blanker` in `~/.screenrc`
 `
 
 
