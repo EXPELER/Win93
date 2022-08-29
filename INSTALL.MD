@@ -189,7 +189,7 @@ user-session=xfce
 `sudo apt install sox`
 - copy the file `Win93-master/win93.ogg` to `~/.themes/Chicago95/misc/win93.ogg`.
 
-###[Extra's]
+### [Extra's]
 
 #### Matrix idle screen in terminal
 - install screen
